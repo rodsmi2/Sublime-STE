@@ -1,9 +1,4 @@
 <?php
-	if($_SERVER["HTTPS"] != "on") {
-	    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
-	    exit();
-	}
-
 	global $form_errors, $servers, $step;
 
 	$servers = array();
