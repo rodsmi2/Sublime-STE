@@ -1,11 +1,8 @@
 <?php
-	if( !isset( $_SERVER['HTTPS'] ) ) {
+	if( empty( $_SERVER['HTTPS'] ) ) {
 		header( 'Location: https://'.$_SERVER['HTTP_HOST'] );
 		exit();
 	}
-
-	ini_set('display_errors', 1);
-	error_reporting(E_ALL);
 
 	global $form_errors, $servers, $step;
 
