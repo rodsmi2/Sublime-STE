@@ -1,7 +1,7 @@
 <?php
 	if( !isset( $_SERVER['HTTPS'] ) ) {
-		//header( 'Location: https://'.$_SERVER['HTTP_HOST'] );
-		//exit();
+		header( 'Location: https://'.$_SERVER['HTTP_HOST'] );
+		exit();
 	}
 
 	ini_set('display_errors', 1);
@@ -261,7 +261,7 @@ PATH: {{FTP-PATH}}
 
         <link rel="icon" href="favicon.png">
 
-        <script src="http://use.edgefonts.net/droid-sans:n4,n7.js"></script>
+        <script src="https://use.edgefonts.net/droid-sans:n4,n7.js"></script>
 
         <style type="text/css">
         	/**
@@ -451,7 +451,7 @@ PATH: {{FTP-PATH}}
 
 					$('.server-link').click(function(e) {
 						e.preventDefault();
-						
+
 						var id = parseInt( $(this).attr('id').replace('server_', '') );
 						$('input[name="server"]').val( id );
 
