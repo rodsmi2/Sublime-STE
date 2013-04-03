@@ -248,7 +248,7 @@ PATH: {{FTP-PATH}}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Sublime STE</title>
-        <meta name="description" content="">
+        <meta name="description" content="A converter tool to allow for migrating Dreamweaver .STE files to Sublime Text 2's sftp-config.json format.">
         <meta name="viewport" content="width=device-width">
 
         <link rel="icon" href="favicon.png">
