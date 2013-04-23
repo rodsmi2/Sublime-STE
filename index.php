@@ -71,7 +71,7 @@
     
     "remote_path": "{{FTP-PATH}}",
     "ignore_regexes": [
-        "\\.sublime-(project|workspace)", "sftp-config(-alt\\d?)?\\.json",
+        "\\.sublime-(project|workspace)", "\\_notes", "sftp-config(-alt\\d?)?\\.json",
         "sftp-settings\\.json", "/venv/", "\\.svn", "\\.hg", "\\.git",
         "\\.bzr", "_darcs", "CVS", "\\.DS_Store", "Thumbs\\.db", "desktop\\.ini"
     ],
